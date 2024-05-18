@@ -69,7 +69,9 @@ class QuoteGenerator:
             "affirmation": [
                 "Nice Work!",
                 "Keep it Up!",
-                "Good Job!"
+                "Good Job!",
+                "You are amazing!",
+                "You are awesome!"
             ],
             "movie": [
                 "Magic Mirror on the wall, who is the fairest one of all? - Snow White",

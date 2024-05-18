@@ -1,6 +1,5 @@
 # tester
-from rng_quote_gen_microservice import QuoteGenerator,init_used_quote_db, add_used_quote, get_used_quotes, clear_used_quotes
-
+from rng_quote_gen_microservice import QuoteGenerator
 def rng_affirmation_generator():
     """
     The method returns a randomly chosen affirmation from the library of affirmations.
