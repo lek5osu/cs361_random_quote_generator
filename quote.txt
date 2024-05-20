@@ -1,1 +1,1 @@
-You are awesome!
+An error occurred while generating an affirmation: QuoteGenerator.__init__() takes 1 positional argument but 2 were given
