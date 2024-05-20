@@ -45,3 +45,5 @@ print(quote2)
 ```
 if any error has occured in the module itself, a specific error messsage will be written in the quote.txt file instead.
 ### UML Sequence Diagram
+![image](https://raw.githubusercontent.com/lek5osu/cs361_random_quote_generator/main/UML%20milestone%202.png)
+
