@@ -106,6 +106,38 @@ class QuoteGenerator:
 
         return selected_quote
 
+def rng_inspirational_quote_generator():
+    """
+    The method returns a randomly chosen affirmation from the library of affirmations.
+    """
+    # Create an instance of the QuoteGenerator
+    quote_generator = QuoteGenerator()
+
+    # Generate a quote based on category, quote will be written in a file called "quote.txt" in your directory
+    result = quote_generator.generate_quote("inspirational")
+
+def rng_affirmation_generator():
+    """
+    The method returns a randomly chosen affirmation from the library of affirmations.
+    """
+    # Create an instance of the QuoteGenerator
+    quote_generator = QuoteGenerator()
+
+    # Generate a quote based on category, quote will be written in a file called "quote.txt" in your directory
+    result = quote_generator.generate_quote("affirmation")
+
+def rng_movie_quote_generator():
+    """
+    The method returns a randomly chosen affirmation from the library of affirmations.
+    """
+    # Create an instance of the QuoteGenerator
+    quote_generator = QuoteGenerator()
+
+    # Generate a quote based on category, quote will be written in a file called "quote.txt" in your directory
+    result = quote_generator.generate_quote("movie")
+
+
+
 if __name__ == "__main__":
     quote_generator = QuoteGenerator()
     result = quote_generator.generate_quote("affirmation")
