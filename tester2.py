@@ -7,7 +7,7 @@ def request_quote(category):
 
     socket.send_string(category)
     message = socket.recv_string()
-    print(f"Received reply: {message}")
+    print(message)
 
 if __name__ == "__main__":
     request_quote("inspirational")
