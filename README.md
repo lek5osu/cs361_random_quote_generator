@@ -16,7 +16,7 @@ def request_quote(category):
 
     socket.send_string(category)
 ```
-The 3 categories of quotes can be retrieved using the follwoing calls.
+The 3 categories of quotes can be retrieved using the following calls.
 
 * `request_quote("inspirational")` - This requests an inspirational quote.
 * `request_quote("affirmation")` - This requests an affirmational quote.
