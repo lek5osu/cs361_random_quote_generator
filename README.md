@@ -32,5 +32,6 @@ The requested quote will be assigned to the 'message variable'
 
 if any error has occured in the module itself, a specific error messsage will be written in the quote.txt file instead.
 ### UML Sequence Diagram
-![image]([https://raw.githubusercontent.com/lek5osu/cs361_random_quote_generator/main/updatedUML.png])
+![image](https://raw.githubusercontent.com/lek5osu/cs361_random_quote_generator/main/updatedUML.png)
+
 
